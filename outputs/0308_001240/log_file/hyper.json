@@ -1,0 +1,23 @@
+{
+    "config": "hyper.json",
+    "window_len": 20,
+    "G": null,
+    "batch_size": null,
+    "seed": -1,
+    "lr": null,
+    "gamma": null,
+    "spatial_bool": true,
+    "msu_bool": true,
+    "relation_file": "industry_classification.npy",
+    "addaptive_adj_bool": true,
+    "market": "DJIA",
+    "mode": "train",
+    "in_features": [
+        6,
+        4
+    ],
+    "trade_len": 21,
+    "max_steps": 12,
+    "norm_type": "div-last",
+    "device": "cuda"
+}

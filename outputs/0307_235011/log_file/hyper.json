@@ -1,0 +1,16 @@
+{
+    "config": "hyper.json",
+    "window_len": null,
+    "G": null,
+    "batch_size": null,
+    "seed": -1,
+    "lr": null,
+    "gamma": null,
+    "spatial_bool": true,
+    "msu_bool": true,
+    "relation_file": "industry_classification.npy",
+    "addaptive_adj_bool": true,
+    "market": "DJIA",
+    "mode": "train",
+    "device": "cuda"
+}

@@ -1,0 +1,29 @@
+{
+    "config": "hyper.json",
+    "window_len": 20,
+    "G": null,
+    "batch_size": 32,
+    "seed": -1,
+    "lr": 1e-06,
+    "gamma": null,
+    "spatial_bool": true,
+    "msu_bool": true,
+    "relation_file": "industry_classification.npy",
+    "addaptiveadj": false,
+    "market": "DJIA",
+    "mode": "train",
+    "in_features": [
+        6,
+        4
+    ],
+    "trade_len": 21,
+    "max_steps": 12,
+    "norm_type": "div-last",
+    "hidden_dim": 128,
+    "dropout": 0.5,
+    "kernel_size": 2,
+    "num_blocks": 4,
+    "weight_decay": 0.01,
+    "epochs": 1500,
+    "device": "cuda"
+}
